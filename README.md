@@ -3,7 +3,7 @@
 
 **Authors:** Honey Reddy Daram · Lekha Dakshinamurthy · Sathyadharini Srinivasan  
 **Institution:** AI Systems, University of Florida, Gainesville, USA  
-**Course:** AI Systems — Final Research Paper
+**Course:** AI Ethics
 
 ---
 
@@ -300,4 +300,4 @@ All charts are saved to the `hiring_bias_output/` directory.
 
 ---
 
-*University of Florida — AI Systems Course — April 2026*
+*University of Florida — AI Ethics Course — April 2026*
