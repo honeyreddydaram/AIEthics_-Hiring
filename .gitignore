@@ -1,0 +1,18 @@
+# Documents - do not push
+*.pdf
+*.tex
+*.bib
+*.zip
+README.md
+
+# Draft and report markdown files
+DRAFT_PAPER.md
+RESEARCH_REPORT.md
+*-checkpoint.md
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+__MACOSX/

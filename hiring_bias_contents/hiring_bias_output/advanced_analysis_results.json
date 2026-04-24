@@ -1,0 +1,745 @@
+{
+  "intersectional_gender_edu": [
+    {
+      "Gender": "Female",
+      "Education_Level": "Bachelors",
+      "Count": 491,
+      "Hired": 277,
+      "Rate_%": 56.4
+    },
+    {
+      "Gender": "Female",
+      "Education_Level": "Masters",
+      "Count": 500,
+      "Hired": 301,
+      "Rate_%": 60.2
+    },
+    {
+      "Gender": "Male",
+      "Education_Level": "Bachelors",
+      "Count": 477,
+      "Hired": 266,
+      "Rate_%": 55.8
+    },
+    {
+      "Gender": "Male",
+      "Education_Level": "Masters",
+      "Count": 532,
+      "Hired": 311,
+      "Rate_%": 58.5
+    }
+  ],
+  "intersectional_gender_uni": [
+    {
+      "Gender": "Female",
+      "University": "Pennsylvania State University",
+      "Count": 13,
+      "Hired": 10,
+      "Rate_%": 76.9
+    },
+    {
+      "Gender": "Female",
+      "University": "Sorbonne University",
+      "Count": 12,
+      "Hired": 5,
+      "Rate_%": 41.7
+    },
+    {
+      "Gender": "Female",
+      "University": "Stanford University",
+      "Count": 11,
+      "Hired": 10,
+      "Rate_%": 90.9
+    },
+    {
+      "Gender": "Female",
+      "University": "Technical University of Munich",
+      "Count": 17,
+      "Hired": 8,
+      "Rate_%": 47.1
+    },
+    {
+      "Gender": "Female",
+      "University": "University of Adelaide",
+      "Count": 16,
+      "Hired": 5,
+      "Rate_%": 31.2
+    },
+    {
+      "Gender": "Female",
+      "University": "University of Michigan",
+      "Count": 17,
+      "Hired": 14,
+      "Rate_%": 82.4
+    },
+    {
+      "Gender": "Female",
+      "University": "University of Sheffield",
+      "Count": 15,
+      "Hired": 7,
+      "Rate_%": 46.7
+    },
+    {
+      "Gender": "Female",
+      "University": "University of Wisconsin\u2013Madison",
+      "Count": 18,
+      "Hired": 16,
+      "Rate_%": 88.9
+    },
+    {
+      "Gender": "Male",
+      "University": "Pennsylvania State University",
+      "Count": 20,
+      "Hired": 17,
+      "Rate_%": 85.0
+    },
+    {
+      "Gender": "Male",
+      "University": "Sorbonne University",
+      "Count": 16,
+      "Hired": 10,
+      "Rate_%": 62.5
+    },
+    {
+      "Gender": "Male",
+      "University": "Stanford University",
+      "Count": 18,
+      "Hired": 14,
+      "Rate_%": 77.8
+    },
+    {
+      "Gender": "Male",
+      "University": "Technical University of Munich",
+      "Count": 16,
+      "Hired": 5,
+      "Rate_%": 31.2
+    },
+    {
+      "Gender": "Male",
+      "University": "University of Adelaide",
+      "Count": 11,
+      "Hired": 3,
+      "Rate_%": 27.3
+    },
+    {
+      "Gender": "Male",
+      "University": "University of Michigan",
+      "Count": 10,
+      "Hired": 9,
+      "Rate_%": 90.0
+    },
+    {
+      "Gender": "Male",
+      "University": "University of Sheffield",
+      "Count": 12,
+      "Hired": 4,
+      "Rate_%": 33.3
+    },
+    {
+      "Gender": "Male",
+      "University": "University of Wisconsin\u2013Madison",
+      "Count": 21,
+      "Hired": 15,
+      "Rate_%": 71.4
+    }
+  ],
+  "equal_opportunity": {
+    "TPR_Female": 0.7281,
+    "TPR_Male": 0.7692,
+    "TPR_diff": 0.0411,
+    "FPR_diff": 0.0574,
+    "FNR_diff": 0.0411
+  },
+  "calibration": {
+    "Female": {
+      "mean_pred": [
+        0.35312499999999997,
+        0.45454545454545453,
+        0.5136363636363638,
+        0.5599999999999999,
+        0.6095,
+        0.6554545454545454,
+        0.7038636363636365,
+        0.7936363636363637
+      ],
+      "frac_pos": [
+        0.6666666666666666,
+        0.6363636363636364,
+        0.6818181818181818,
+        0.7307692307692307,
+        0.6,
+        0.5454545454545454,
+        0.5454545454545454,
+        0.6363636363636364
+      ]
+    },
+    "Male": {
+      "mean_pred": [
+        0.3676666666666667,
+        0.4592000000000001,
+        0.5225862068965518,
+        0.5681666666666667,
+        0.6091304347826084,
+        0.6588333333333334,
+        0.7113999999999998,
+        0.7850000000000001
+      ],
+      "frac_pos": [
+        0.43333333333333335,
+        0.44,
+        0.4482758620689655,
+        0.5666666666666667,
+        0.5217391304347826,
+        0.8,
+        0.4,
+        0.6071428571428571
+      ]
+    }
+  },
+  "shap_mean": [
+    {
+      "Feature": "Interview Score",
+      "Mean_SHAP": 0.03790705545581936
+    },
+    {
+      "Feature": "Skills Score",
+      "Mean_SHAP": 0.03499769257519452
+    },
+    {
+      "Feature": "Experience",
+      "Mean_SHAP": 0.031075652705981383
+    },
+    {
+      "Feature": "CGPA",
+      "Mean_SHAP": 0.03073335946237618
+    },
+    {
+      "Feature": "Education",
+      "Mean_SHAP": 0.02342179652903246
+    },
+    {
+      "Feature": "Gender",
+      "Mean_SHAP": 0.01766455579098295
+    }
+  ],
+  "lime": [
+    {
+      "case_idx": 133,
+      "actual": "Rejected",
+      "pred_prob": 0.5,
+      "features": [
+        [
+          "Interview Score > 83.00",
+          -0.06725272565544324
+        ],
+        [
+          "Experience > 4.00",
+          0.029079890788686825
+        ],
+        [
+          "3.11 < CGPA <= 3.60",
+          0.02512060168710556
+        ],
+        [
+          "Education <= 0.00",
+          -0.02462741287286362
+        ],
+        [
+          "0.00 < Gender <= 1.00",
+          0.01736353664774615
+        ],
+        [
+          "Skills Score > 83.00",
+          0.01681959627906989
+        ]
+      ]
+    },
+    {
+      "case_idx": 94,
+      "actual": "Selected",
+      "pred_prob": 0.5,
+      "features": [
+        [
+          "57.00 < Interview Score <= 69.00",
+          0.03985156626184348
+        ],
+        [
+          "Experience <= 1.00",
+          -0.03743285883743156
+        ],
+        [
+          "Education <= 0.00",
+          -0.023355332107880176
+        ],
+        [
+          "0.00 < Gender <= 1.00",
+          0.015852834926457268
+        ],
+        [
+          "Skills Score <= 57.00",
+          0.009089938662315167
+        ],
+        [
+          "2.72 < CGPA <= 3.11",
+          -0.002259452216450508
+        ]
+      ]
+    }
+  ],
+  "counterfactual": {
+    "total_changed": 99,
+    "pct_changed": 24.75,
+    "female_pct_changed": 26.11,
+    "male_pct_changed": 23.64,
+    "avg_prob_delta_female": 0.0201,
+    "avg_prob_delta_male": -0.0048
+  },
+  "threshold_sensitivity": [
+    {
+      "Threshold": 0.3,
+      "Gender": "Female",
+      "Hiring_Rate": 98.88888888888889,
+      "F1": 0.773972602739726
+    },
+    {
+      "Threshold": 0.3,
+      "Gender": "Male",
+      "Hiring_Rate": 98.18181818181819,
+      "F1": 0.6906906906906907
+    },
+    {
+      "Threshold": 0.35,
+      "Gender": "Female",
+      "Hiring_Rate": 95.0,
+      "F1": 0.7649122807017544
+    },
+    {
+      "Threshold": 0.35,
+      "Gender": "Male",
+      "Hiring_Rate": 96.36363636363636,
+      "F1": 0.6930091185410334
+    },
+    {
+      "Threshold": 0.4,
+      "Gender": "Female",
+      "Hiring_Rate": 88.33333333333333,
+      "F1": 0.7326007326007326
+    },
+    {
+      "Threshold": 0.4,
+      "Gender": "Male",
+      "Hiring_Rate": 92.27272727272727,
+      "F1": 0.6875
+    },
+    {
+      "Threshold": 0.45,
+      "Gender": "Female",
+      "Hiring_Rate": 82.22222222222221,
+      "F1": 0.7099236641221374
+    },
+    {
+      "Threshold": 0.45,
+      "Gender": "Male",
+      "Hiring_Rate": 81.81818181818183,
+      "F1": 0.6666666666666666
+    },
+    {
+      "Threshold": 0.5,
+      "Gender": "Female",
+      "Hiring_Rate": 72.77777777777777,
+      "F1": 0.6775510204081633
+    },
+    {
+      "Threshold": 0.5,
+      "Gender": "Male",
+      "Hiring_Rate": 73.63636363636363,
+      "F1": 0.6594982078853047
+    },
+    {
+      "Threshold": 0.55,
+      "Gender": "Female",
+      "Hiring_Rate": 58.333333333333336,
+      "F1": 0.5844748858447488
+    },
+    {
+      "Threshold": 0.55,
+      "Gender": "Male",
+      "Hiring_Rate": 61.81818181818181,
+      "F1": 0.6324110671936759
+    },
+    {
+      "Threshold": 0.6,
+      "Gender": "Female",
+      "Hiring_Rate": 43.888888888888886,
+      "F1": 0.45595854922279794
+    },
+    {
+      "Threshold": 0.6,
+      "Gender": "Male",
+      "Hiring_Rate": 46.36363636363636,
+      "F1": 0.5662100456621004
+    },
+    {
+      "Threshold": 0.65,
+      "Gender": "Female",
+      "Hiring_Rate": 33.88888888888889,
+      "F1": 0.4
+    },
+    {
+      "Threshold": 0.65,
+      "Gender": "Male",
+      "Hiring_Rate": 33.18181818181819,
+      "F1": 0.47368421052631576
+    },
+    {
+      "Threshold": 0.7,
+      "Gender": "Female",
+      "Hiring_Rate": 20.0,
+      "F1": 0.26666666666666666
+    },
+    {
+      "Threshold": 0.7,
+      "Gender": "Male",
+      "Hiring_Rate": 20.909090909090907,
+      "F1": 0.2822085889570552
+    }
+  ],
+  "proxy_uni_gender_corr": -0.0018,
+  "skills_parity": [
+    {
+      "Skills_Q": "Q1 Low",
+      "Gender": "Female",
+      "Count": 243,
+      "Hired": 142,
+      "Rate_%": 58.4
+    },
+    {
+      "Skills_Q": "Q1 Low",
+      "Gender": "Male",
+      "Count": 261,
+      "Hired": 157,
+      "Rate_%": 60.2
+    },
+    {
+      "Skills_Q": "Q2",
+      "Gender": "Female",
+      "Count": 251,
+      "Hired": 145,
+      "Rate_%": 57.8
+    },
+    {
+      "Skills_Q": "Q2",
+      "Gender": "Male",
+      "Count": 260,
+      "Hired": 141,
+      "Rate_%": 54.2
+    },
+    {
+      "Skills_Q": "Q3",
+      "Gender": "Female",
+      "Count": 271,
+      "Hired": 160,
+      "Rate_%": 59.0
+    },
+    {
+      "Skills_Q": "Q3",
+      "Gender": "Male",
+      "Count": 243,
+      "Hired": 142,
+      "Rate_%": 58.4
+    },
+    {
+      "Skills_Q": "Q4 High",
+      "Gender": "Female",
+      "Count": 226,
+      "Hired": 131,
+      "Rate_%": 58.0
+    },
+    {
+      "Skills_Q": "Q4 High",
+      "Gender": "Male",
+      "Count": 245,
+      "Hired": 137,
+      "Rate_%": 55.9
+    }
+  ],
+  "qualified_but_rejected": [
+    {
+      "Gender": "Female",
+      "Total": 242,
+      "Hired": 141,
+      "Rejected": 101,
+      "Rejected_%": 41.7,
+      "Hired_%": 58.3
+    },
+    {
+      "Gender": "Male",
+      "Total": 235,
+      "Hired": 130,
+      "Rejected": 105,
+      "Rejected_%": 44.7,
+      "Hired_%": 55.3
+    }
+  ],
+  "qualified_total": 477,
+  "overqualification": [
+    {
+      "CGPA_Q": "Q1 Low",
+      "Education_Level": "Bachelors",
+      "Count": 244,
+      "Hired": 140,
+      "Rate_%": 57.4
+    },
+    {
+      "CGPA_Q": "Q1 Low",
+      "Education_Level": "Masters",
+      "Count": 259,
+      "Hired": 144,
+      "Rate_%": 55.6
+    },
+    {
+      "CGPA_Q": "Q2",
+      "Education_Level": "Bachelors",
+      "Count": 251,
+      "Hired": 131,
+      "Rate_%": 52.2
+    },
+    {
+      "CGPA_Q": "Q2",
+      "Education_Level": "Masters",
+      "Count": 247,
+      "Hired": 157,
+      "Rate_%": 63.6
+    },
+    {
+      "CGPA_Q": "Q3",
+      "Education_Level": "Bachelors",
+      "Count": 234,
+      "Hired": 136,
+      "Rate_%": 58.1
+    },
+    {
+      "CGPA_Q": "Q3",
+      "Education_Level": "Masters",
+      "Count": 273,
+      "Hired": 166,
+      "Rate_%": 60.8
+    },
+    {
+      "CGPA_Q": "Q4 High",
+      "Education_Level": "Bachelors",
+      "Count": 239,
+      "Hired": 136,
+      "Rate_%": 56.9
+    },
+    {
+      "CGPA_Q": "Q4 High",
+      "Education_Level": "Masters",
+      "Count": 253,
+      "Hired": 145,
+      "Rate_%": 57.3
+    }
+  ],
+  "job_role_segregation": [
+    {
+      "Job_Applied": "Deep Learning Specialist",
+      "Female": 112,
+      "Male": 89,
+      "Total": 201,
+      "Pct_Female": 55.7,
+      "Pct_Male": 44.3
+    },
+    {
+      "Job_Applied": "AI Ethics & Compliance Officer",
+      "Female": 105,
+      "Male": 86,
+      "Total": 191,
+      "Pct_Female": 55.0,
+      "Pct_Male": 45.0
+    },
+    {
+      "Job_Applied": "MLOps Engineer",
+      "Female": 106,
+      "Male": 95,
+      "Total": 201,
+      "Pct_Female": 52.7,
+      "Pct_Male": 47.3
+    },
+    {
+      "Job_Applied": "Reinforcement Learning Researcher",
+      "Female": 116,
+      "Male": 111,
+      "Total": 227,
+      "Pct_Female": 51.1,
+      "Pct_Male": 48.9
+    },
+    {
+      "Job_Applied": "Machine Learning Engineer",
+      "Female": 94,
+      "Male": 92,
+      "Total": 186,
+      "Pct_Female": 50.5,
+      "Pct_Male": 49.5
+    },
+    {
+      "Job_Applied": "AI Research Scientist",
+      "Female": 90,
+      "Male": 95,
+      "Total": 185,
+      "Pct_Female": 48.6,
+      "Pct_Male": 51.4
+    },
+    {
+      "Job_Applied": "Computer Vision Engineer",
+      "Female": 104,
+      "Male": 116,
+      "Total": 220,
+      "Pct_Female": 47.3,
+      "Pct_Male": 52.7
+    },
+    {
+      "Job_Applied": "NLP Engineer (Natural Language Processing)",
+      "Female": 96,
+      "Male": 108,
+      "Total": 204,
+      "Pct_Female": 47.1,
+      "Pct_Male": 52.9
+    },
+    {
+      "Job_Applied": "AI Product Manager",
+      "Female": 86,
+      "Male": 107,
+      "Total": 193,
+      "Pct_Female": 44.6,
+      "Pct_Male": 55.4
+    },
+    {
+      "Job_Applied": "Data Architect (AI Infrastructure)",
+      "Female": 82,
+      "Male": 110,
+      "Total": 192,
+      "Pct_Female": 42.7,
+      "Pct_Male": 57.3
+    }
+  ],
+  "biased_vs_debiased": {
+    "biased": {
+      "Accuracy": 0.5625,
+      "Precision": 0.5966,
+      "Recall": 0.7489,
+      "F1": 0.6641,
+      "AUC": 0.5153
+    },
+    "debiased": {
+      "Accuracy": 0.5525,
+      "Precision": 0.5922,
+      "Recall": 0.7229,
+      "F1": 0.6511,
+      "AUC": 0.5131
+    },
+    "bias_disparity": [
+      {
+        "Gender": "Female",
+        "Hire_Rate_%": 72.8
+      },
+      {
+        "Gender": "Male",
+        "Hire_Rate_%": 72.3
+      }
+    ],
+    "debias_disparity": [
+      {
+        "Gender": "Female",
+        "Hire_Rate_%": 72.2
+      },
+      {
+        "Gender": "Male",
+        "Hire_Rate_%": 69.1
+      }
+    ]
+  },
+  "fairness_accuracy_tradeoff": [
+    {
+      "Alpha": 0.0,
+      "Accuracy": 0.565,
+      "F1": 0.6679,
+      "DP_Diff": 0.86,
+      "DI_Ratio": 0.9883
+    },
+    {
+      "Alpha": 0.1,
+      "Accuracy": 0.57,
+      "F1": 0.6742,
+      "DP_Diff": 1.36,
+      "DI_Ratio": 1.0185
+    },
+    {
+      "Alpha": 0.2,
+      "Accuracy": 0.575,
+      "F1": 0.6768,
+      "DP_Diff": 2.27,
+      "DI_Ratio": 1.0312
+    },
+    {
+      "Alpha": 0.3,
+      "Accuracy": 0.575,
+      "F1": 0.6743,
+      "DP_Diff": 2.07,
+      "DI_Ratio": 1.0288
+    },
+    {
+      "Alpha": 0.4,
+      "Accuracy": 0.565,
+      "F1": 0.6667,
+      "DP_Diff": 0.96,
+      "DI_Ratio": 0.9869
+    },
+    {
+      "Alpha": 0.5,
+      "Accuracy": 0.5675,
+      "F1": 0.6692,
+      "DP_Diff": 1.41,
+      "DI_Ratio": 0.9808
+    },
+    {
+      "Alpha": 0.6,
+      "Accuracy": 0.565,
+      "F1": 0.6667,
+      "DP_Diff": 0.96,
+      "DI_Ratio": 0.9869
+    },
+    {
+      "Alpha": 0.7,
+      "Accuracy": 0.565,
+      "F1": 0.6654,
+      "DP_Diff": 1.97,
+      "DI_Ratio": 1.0276
+    },
+    {
+      "Alpha": 0.8,
+      "Accuracy": 0.56,
+      "F1": 0.6589,
+      "DP_Diff": 2.78,
+      "DI_Ratio": 1.0397
+    },
+    {
+      "Alpha": 0.9,
+      "Accuracy": 0.5525,
+      "F1": 0.6524,
+      "DP_Diff": 2.22,
+      "DI_Ratio": 1.0317
+    },
+    {
+      "Alpha": 1.0,
+      "Accuracy": 0.55,
+      "F1": 0.6498,
+      "DP_Diff": 2.68,
+      "DI_Ratio": 1.0385
+    }
+  ],
+  "adversarial_debiasing": {
+    "biased_gender_leak": 0.5035,
+    "debiased_gender_leak": 0.489,
+    "random_baseline": 0.5
+  }
+}
