@@ -1,5 +1,6 @@
 # Documents - do not push
 *.pdf
+!AI.pdf
 *.tex
 *.bib
 *.zip
