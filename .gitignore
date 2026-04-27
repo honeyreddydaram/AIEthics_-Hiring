@@ -4,6 +4,8 @@
 *.tex
 *.bib
 *.zip
+*.docx
+*.doc
 
 # Draft and report markdown files
 DRAFT_PAPER.md
